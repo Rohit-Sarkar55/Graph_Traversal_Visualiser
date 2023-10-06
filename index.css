@@ -1,0 +1,36 @@
+.node{
+
+    background-color: aqua;
+    width: 20px;
+    height:20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+       
+}
+ div[blocked = "true" ]{
+    background-color: grey;
+ }
+ div[visited = "true"]{
+    background-color: yellow;
+ }
+div[success = "true"]{
+    background-color: orange;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(25, 20px);
+    grid-template-rows: repeat(10, 20px);
+    grid-row-gap: 1px;
+    grid-column-gap: 1px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+/* .run{
+    visibility: hidden;
+  } */
+
+#select_box{
+  visibility: hidden;
+}
